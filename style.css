@@ -55,7 +55,7 @@ body {
 }
 
 .portfolio-card {
-    height: 510px;
+    height: 480px;
     width: 28%;
     margin-top: 40px;
     margin-left: 40px;
@@ -65,7 +65,7 @@ body {
 }
 
 .profile-photo {
-    height: 270px;
+    height: 240px;
     width: 240px;
     border-radius: 20px;
     margin-left: 40px;
