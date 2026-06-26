@@ -8,7 +8,7 @@
 body {
     display: flex;
     justify-content: center;
-    background: rgb(10, 15, 30);
+    background: rgb(33, 45, 80);
 }
 
 .container {
@@ -19,4 +19,37 @@ body {
     border: 1px solid rgb(30,45,70);
     border-radius: 25px;
     box-shadow: 0 0 40px rgba(0,0,0,0.5);
+}
+
+.nav_bar-section {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_bar {
+    height: 50px;
+    border-bottom: 1px solid rgb(30,45,70);
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.name h2 {
+    font-size: 25px;
+    color: blueviolet;
+}
+
+
+.links {
+    display: flex; 
+    margin-left: 480px;
+}
+
+
+.links a {
+    margin-left: 40px;
+}
+
+.links a:hover{
+    color:blueviolet;
 }
