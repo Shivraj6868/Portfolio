@@ -39,6 +39,9 @@ body {
     color: blueviolet;
 }
 
+.name h2:hover{
+    color: white;
+}
 
 .links {
     display: flex; 
@@ -73,9 +76,13 @@ body {
     background-image: url("profile-photo.png");
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1.5px solid blueviolet;
+    border: 2px solid blueviolet;
+    box-shadow: 1px 1px 20px black;
 }
 
+.profile-photo:hover {
+    box-shadow: 1px 1px 30px black;
+}
 .name-card {
     font-size: 30px;
     font-weight: 900;
@@ -116,7 +123,7 @@ body {
 }
 
 .social-icons a:hover{
-    border: 1px solid blueviolet;
+    border: 2px solid blueviolet;
 }
 
 .social-icons a i{
