@@ -13,7 +13,7 @@ body {
 
 .container {
     width: 90%;
-    height:650px;
+    height: 1100px;
     margin-top: 30px;
     background-color: rgb(8, 15, 30);
     border: 1px solid rgb(30,45,70);
@@ -52,4 +52,75 @@ body {
 
 .links a:hover{
     color:blueviolet;
+}
+
+.portfolio-card {
+    height: 510px;
+    width: 28%;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: rgb(33, 45, 80);
+    border: 1px solid rgb(30,45,70);
+    border-radius: 20px;
+}
+
+.profile-photo {
+    height: 270px;
+    width: 240px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-image: url("profile-photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.5px solid blueviolet;
+}
+
+.name-card {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-left: 65px;
+}
+
+.soft-dev {
+    color: rgb(137, 37, 243);
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.about-card {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.social-icons a{
+    width: 45px;
+    height: 45px;
+    background:#151b35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.social-icons a:hover{
+    border: 1px solid blueviolet;
+}
+
+.social-icons a i{
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
 }
