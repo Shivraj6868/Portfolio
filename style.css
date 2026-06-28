@@ -212,10 +212,10 @@ body {
 
 .s-img {
     background-color: beige;
-    height: 100px;
-    width: 90%;
-    margin-left: 6px;
-    margin-top: 6px;
+    height: 105px;
+    width: 85%;
+    margin-left: 9px;
+    margin-top: 8px;
     border-radius: 5px;
 }
 
@@ -223,4 +223,52 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 5px;
+}
+
+.html {
+    background-image: url("html.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.css {
+    background-image: url("css.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.javascript {
+    background-image: url("javascript.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.python {
+    background-image: url("python.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.numpy {
+    background-image: url("numpy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pandas {
+    background-image: url("pandas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.matplotlib {
+    background-image: url("matplotlib.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seaborn {
+    background-image: url("seaborn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
