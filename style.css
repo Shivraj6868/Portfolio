@@ -172,3 +172,40 @@ body {
     margin-top: 20px;
     color: rgb(160, 158, 158);
 }
+
+.skills-Container{
+    display: flex;
+    justify-content: center;
+}
+
+.skills-section {
+    background-color: rgb(33, 45, 80);
+    height: 200px;
+    width: 93%;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.part-1 {
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.part-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+}
+
+.skills {
+    background-color: rgb(8, 15, 30);
+    height: 140px;
+    width: 120px;
+    border-radius: 15px;
+}
+
+.skills:hover {
+    border: 2px solid blueviolet;
+}
