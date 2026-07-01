@@ -13,7 +13,7 @@ body {
 
 .container {
     width: 90%;
-    height: 1100px;
+    height: 1140px;
     margin-top: 30px;
     background-color: rgb(8, 15, 30);
     border: 1px solid rgb(30,45,70);
@@ -271,4 +271,41 @@ body {
     background-image: url("seaborn.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.project-Container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-section {
+    background-color: rgb(33, 45, 80);
+    height: 230px;
+    width: 93%;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.part_1 {
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.part_2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+}
+
+.project {
+    width:32%;
+    height: 175px;
+    background-color: rgb(8, 15, 30);
+    border-radius: 15px;
+}
+
+.project:hover {
+    border: 2px solid blueviolet;
 }
