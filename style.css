@@ -80,8 +80,12 @@ body {
     background-image: url("profile-photo.png");
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid blueviolet;
+    border: 2px solid white;
     box-shadow: 1px 1px 20px black;
+}
+
+.profile-photo:hover {
+    border: 2px solid blueviolet;
 }
 
 .profile-photo:hover {
